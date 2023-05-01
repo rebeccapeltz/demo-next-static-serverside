@@ -2,13 +2,12 @@ import React from 'react'
 
 export default function UserRow(props) {
 debugger
-// const { id, name, username, email } = user;
+const { id, name,  email } = props.user;
   return (
         <tr>
-            <td>{props.user.id}</td>
-            <td>{props.user.name}</td>
-            <td>{props.user.name}</td>
-            <td>{props.user.email}</td>
+            <td>{id}</td>
+            <td>{name}</td>
+            <td>{email}</td>
         </tr>
   )
 }
