@@ -14,6 +14,6 @@ export default function UserRow(props) {
       </tr>
     );
   } else {
-    return <p>no data</p>;
+    return null;
   }
 }
